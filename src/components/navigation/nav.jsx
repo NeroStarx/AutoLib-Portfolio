@@ -10,7 +10,7 @@ export default function navBar(props){
             </div>
             <div className="links" id="myTopnav">
                 <ul>
-                    <li><a href="#function">Functionalité</a></li>
+                    <li><a href="#functionality">Functionalité</a></li>
                     <li><a href="#about">A propos</a></li>
                     <li><a href="#contact">Contacter</a></li>
                 </ul>
