@@ -3,7 +3,7 @@ import './button.css'
 
 export default function button(props){
     return(
-        <button class={props.mode + " button"} onClick={props.onClick}>
+        <button className={props.mode + " button"} onClick={props.onClick}>
             {props.text}
         </button>
     )
