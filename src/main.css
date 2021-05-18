@@ -1,0 +1,45 @@
+#about-title>p{
+    background-image: url('./assets/about_section_back.png');
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-size: cover;
+    height: 150px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: 2em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+#about-content{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+#about-content>div{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.autolib-about-logo{
+    width: 95%;
+}
+
+.main-title{
+    font-family: 'Montserrat';
+    font-size: 1.7em;
+    font-weight: bolder;
+    color: #333;
+}
+
+.main-text{
+    font-family: 'Montserrat';
+    font-size: 1.1em;
+    color: #333;
+}
