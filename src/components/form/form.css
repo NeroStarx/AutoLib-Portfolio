@@ -71,3 +71,21 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+@media only screen and (max-width: 720px){
+    .form-card{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .contact-info{
+        background-color: #F9C31B;
+        border-radius: 15px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+}

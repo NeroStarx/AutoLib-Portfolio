@@ -39,3 +39,15 @@
 .description{
     width: 80%;
 }
+
+@media only screen and (max-width: 720px){
+    .main-header-container{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+}
