@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from './components/navigation/nav'
 import Header from './components/header/header'
+import Form from './components/form/form'
 import logo from './assets/autolib_logo.png'
 import './main.css'
 
@@ -52,7 +53,12 @@ export default class main extends React.Component{
 
                 {/* the contact section */}
                 <section id="contact">
-
+                    <div id="contact-title">
+                        <p>Contactez nous</p>
+                    </div>
+                    <div className="form">
+                        <Form />
+                    </div>
                 </section>
             </div>
         )
